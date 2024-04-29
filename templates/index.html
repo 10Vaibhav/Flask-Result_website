@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result website</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+    <script type ="text/javascript" src="{{url_for('static',filename='script/script.js')}}"></script>
+</head>
+
+<body>
+
+    <h2> Average Marks Calculator </h2>
+
+    <form action="/submit" method='POST'>
+
+        <label for="DAA">DAA:</label><br>
+        <input type="text" id="DAA" name="DAA" value="0"><br><br>
+
+        <label for="TFCS">TFCS:</label><br>
+        <input type="text" id="TFCS" name="TFCS" value="0"><br><br>
+
+        <label for="BDA">BDA:</label><br>
+        <input type="text" id="BDA" name="BDA" value="0"><br><br>
+
+        <label for="DBMS">DBMS:</label><br>
+        <input type="text" id="DBMS" name="DBMS" value="0"><br><br>
+
+        <label for="LA">LA:</label><br>
+        <input type="text" id="LA" name="LA" value="0"><br><br>
+
+        <input type="Submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
