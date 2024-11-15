@@ -44,3 +44,6 @@ Contains styles specific to the result page.
 - Shreyas Chaurey
 - Shekhar Nipane
 - Vaibhav Mahajan
+
+## 📄 License
+This repository is licensed under the [MIT License](LICENSE).
